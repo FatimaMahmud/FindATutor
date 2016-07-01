@@ -1,0 +1,246 @@
+
+
+.form {
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: #1ab188;
+  color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+
+ textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+/*input:focus,*/ textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+/*.login__row input {
+  display: inline-block;
+  width: 11rem;
+  height: 100%;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #FDFCFD;
+}*/
+
+.login__row input {
+  display: inline-block;
+  width: 11rem;
+  height: 70%;
+  position: absolute;
+    padding-left: 1rem;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #FDFCFD;
+  
+}
+
+.login__row {
+  height: 4rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+textarea {
+  border: 3px solid #a0b3b0;
+  resize: vertical;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+
+.tabs.active{
+  background: #1ab188;
+  text-decoration-color: #ffffff;
+  color: #ffffff;
+  color: rgb(255,255,255);
+}
+
+.tabs{
+  background: rgba(19, 35, 47, 0.9);
+  color: rgb(255,255,255);
+  text-transform: lowercase;
+}
+
+#tutors ul li a{
+background: rgba(19, 35, 47, 0.9);
+color: #ffffff;
+font-weight: 200;
+}
+
+#tutors ul li a:hover{
+background: #1ab188;
+color: #ffffff;
+font-size: 20px;
+/*padding: 15px;*/
+font-weight: 300;
+}
+
+#tutors ul li{
+  padding: 10px;
+}
+
+#tutors p {
+  padding: 6px;
+  font-size: 14px;
+}
+
+
+.btn {
+  background: #30c795;
+  background-image: -webkit-linear-gradient(top, #30c795, #24b287);
+  background-image: -moz-linear-gradient(top, #30c795, #24b287);
+  background-image: -ms-linear-gradient(top, #30c795, #24b287);
+  background-image: -o-linear-gradient(top, #30c795, #24b287);
+  background-image: linear-gradient(to bottom, #30c795, #24b287);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 9px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #298f6f;
+  background-image: -webkit-linear-gradient(top, #298f6f, #298f6f);
+  background-image: -moz-linear-gradient(top, #298f6f, #298f6f);
+  background-image: -ms-linear-gradient(top, #298f6f, #298f6f);
+  background-image: -o-linear-gradient(top, #298f6f, #298f6f);
+  background-image: linear-gradient(to bottom, #298f6f, #298f6f);
+  text-decoration: none;
+}
+
+.loginbutton{
+  text-align: center;
+  padding-top: 20px;
+}
+
+input.setimage{
+  height: 100px; width: 270px; padding: 0px; margin: auto;
+}
+
+label.choice {
+  display:inline;
+  position:relative;
+  margin-left: 0.2em;
+  _top:0.2em;
+}
+
+input.radio {
+  display: inline;
+  margin-left: 0.5em;
+}
+
